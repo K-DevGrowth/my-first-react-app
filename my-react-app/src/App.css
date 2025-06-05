@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: calc(0.75rem + 1vw);
+  font-family: sans-serif;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+textarea,
+button {
+  font: inherit;
+}
+
+form {
+  padding: 10px;
+}
+
+form textarea {
+  width: 100%;
+  padding: 5px;
+}
